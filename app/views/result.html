@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Result page</title>
+  </head>
+  <body>
+  <div id="container">
+   <div>
+      <p>Thanks for submiiting this form! You have submiited this form {{session['counter']}} times now</p>
+      <div>
+      
+    <fieldset>
+      <div id='Dimensions'>
+
+        <h3>Submitted Information</h3>
+        <p>Name: {{session['name']}} </p>
+        <p>Dojo Location: {{session['location']}} </p>
+        <p>Favorite Language:{{session['language']}} </p>
+        <p>Comment:{{session['comment']}} </p>
+        <button id='button'><a href="/">Go Back</a></button>
+      </div>
+    </fieldset>
+    </div>
+  </body>
+</html>
+
+</body>
+</html>
